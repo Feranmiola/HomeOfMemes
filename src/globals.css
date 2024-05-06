@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=TASA+Orbiter+Display&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bgImage{
+    
+  background-image: url('/assets/HomePattern.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 980px;
+  padding-bottom: 880px;
+  }
+
+.homeBigTitle{
+    font-family: Jockey One;
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 142.5px;
+    text-align: center;
+    text-shadow:
+    -5px -3px 0 #000,
+     3px -3px 0 #000,
+    -5px  3px 0 #000,
+     1px  -3px 0 #000,
+    -5px 12px 0 #000,
+     3px 12px 0 #000;
+
+}
+
+.communityText{
+  font-family: Jockey One;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 15.12px;
+  text-align: center;
+
+  text-shadow:
+  -1px -1px 0 #000,
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000,
+  -1px  3px 0 #000,
+   1px  3px 0 #000;
+
+}
+
+.welcomeText{
+  font-family: Jockey One;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 76px;
+  text-align: center;
+
+
+  text-shadow:
+  -3px -3px 0 #000,
+   3px -3px 0 #000,
+  -3px  3px 0 #000,
+   3px  3px 0 #000,
+  -3px  6px 0 #000,
+   3px  6px 0 #000;
+}
+
+
+.homeZub2{
+    font-family: Jockey One;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 30.24px;
+    text-align: center;
+    text-shadow:
+    -2px -3px 0 #000,
+     2px -3px 0 #000,
+    -2px  3px 0 #000,
+     2px  3px 0 #000,
+    -2px  7px 0 #000,
+     2px  7px 0 #000;
+
+}
+
+.homeSubText{
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+.contractAddressBox{
+    box-shadow: 0px 3px 0px 0px #000000;
+}
+
+.contractAddress{
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    
+}
+
+.contractAddressText{
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: rgb(200, 200, 200);
+}
+
+.shadow-outline-bottom {
+  box-shadow: 0px 4px 0px #000;
+  border: 2.5px solid black;
+}
+
+.shadow-outline-bottom-first{
+  box-shadow: 2px 6px 0px #000;
+  border: 5.5px solid black;
+}
+
+.shadow-outline-bottom-socials{
+  box-shadow: 0px 6px 0px #000;
+  border: 3.5px solid black;
+}
+
+.aboutTitle{
+  font-family: Jockey One;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 45.6px;
+  text-align: center;
+
+  text-shadow:
+    -2px -3px 0 #000,
+     2px -3px 0 #000,
+    -2px  3px 0 #000,
+     2px  3px 0 #000,
+    -2px  7px 0 #000,
+     2px  7px 0 #000;
+
+}
+
+.aboutText{
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  
+}
+
+.shadow-outline-about{
+  width: 544px;
+  height: 265px;
+  border-radius: 39.53px 39.53px 39.53px 39.53px;
+  box-shadow: 5px 5px 0px #000;
+  border: 3px solid black;
+}
+
+.tokenomicsBox{
+  width: 976px;
+  height: 598px;
+  padding: 40px 41px 40px 40px;
+  gap: 8.24px;
+  border-radius: 39.53px;
+  box-shadow: 2px 9px 2px #000;
+  border: 2.5px solid black;
+}
+.tokenomicsHeader{
+  font-family: Jockey One;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 60.8px;
+  text-align: center;
+
+  text-shadow:
+  -4px -3px 0 #000,
+   4px -3px 0 #000, 
+  -4px  3px 0 #000,
+   5px  3px 0 #000, 
+  -4px  7px 0 #000,
+   4px  7px 0 #000; 
+}
+.tokenomicsCol1{
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 400; 
+}
+
+.tokenomicsCol2{
+  font-size: 24px;
+  font-weight: 700; 
+}
+
+.firstProjectBack{
+  background-image: url('/assets/FirstProjectB.svg');
+  
+  background-repeat: no-repeat;
+  
+  background-size: contain;
+}
+.firstProjectText{
+  font-family: Jockey One;
+  font-size: 88px;
+  font-weight: 400;
+  line-height: 83.6px;
+  text-align: left;
+}
+
+.ratedTextt{
+  font-family: Jost;
+  font-size: 27.24px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.alphaText{
+  font-family: Jost;
+  font-size: 27.24px;
+  font-weight: 700;
+  line-height: 28.33px;
+}
+
+.roadmapText{
+    font-family: Jockey One;
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 142.5px;
+    text-align: center;
+
+    text-shadow:
+  -4px -3px 0 #000,
+   4px -3px 0 #000, 
+  -4px  3px 0 #000,
+   5px  3px 0 #000, 
+  -4px  7px 0 #000,
+   4px  7px 0 #000; 
+
+}
+
+.roadmapShadowBox{
+  box-shadow: 7px 7px 0px #000;
+  border: 3px solid black;
+}
+
+.phaseTitle{
+  font-family: Jockey One;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 22.68px;
+
+  text-shadow:
+  -2px -3px 0 #000,
+   2px -3px 0 #000,
+  -2px  3px 0 #000,
+   2px  3px 0 #000,
+  -2px  7px 0 #000,
+   2px  7px 0 #000;
+
+}
+
+.phaseList{
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+
+}
+
+ul, li{
+  list-style-type: disc;
+}
+
+.socialTitle{
+  font-family: Jockey One;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 45.6px;
+  text-align: center;
+
+  
+  text-shadow:
+  -2px -3px 0 #000,
+   2px -3px 0 #000,
+  -2px  3px 0 #000,
+   2px  3px 0 #000,
+  -2px  7px 0 #000,
+   2px  7px 0 #000;
+
+
+}
+
+.socialText{
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  
+
+}
+
+.copyrightText{
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+
+}
+
+.textTelegram{
+  font-family: Jockey One;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 17.64px;
+  text-align: center;
+
+}
+
+
+
+/* SM */
+
+.welcomeTextsm{
+  font-family: Jockey One;
+  font-size: 32px;
+  font-weight: 400;
+
+  text-shadow:
+  -3px -3px 0 #000,
+   3px -3px 0 #000,
+  -3px  3px 0 #000,
+   3px  3px 0 #000,
+  -3px  6px 0 #000,
+   3px  6px 0 #000;
+}
+.homeBigTitlesm{
+  font-family: Jockey One;
+  font-size: 100px;
+  text-align: center;
+
+  text-shadow:
+  -3px -3px 0 #000,
+   3px -3px 0 #000,
+  -3px  3px 0 #000,
+   3px  3px 0 #000,
+  -3px  6px 0 #000,
+   3px  6px 0 #000;
+
+}
+
+.homeSubTitlesm{
+  font-family: Jockey One;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 15.12px;
+  text-align: center;
+
+
+  text-shadow:
+  -3px -3px 0 #000,
+   3px -3px 0 #000,
+  -3px  3px 0 #000,
+   3px  3px 0 #000,
+  -3px  6px 0 #000,
+   3px  6px 0 #000;
+
+}
+
+.homeSubTextsm{
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: center;
+
+}
+
+.contractAddressTextsm{
+  font-family: Jost;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.4px;
+  letter-spacing: 0.05em;
+  text-align: left;
+
+}
+.contractAddresssm{
+  font-family: Jost;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.4px;
+  letter-spacing: 0.01em;
+  text-align: left;
+
+}
+
+.aboutTitlesm{
+  font-family: Jockey One;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 30.4px;
+
+  text-shadow:
+  -3px -3px 0 #000,
+   3px -3px 0 #000,
+  -3px  3px 0 #000,
+   3px  3px 0 #000,
+  -3px  6px 0 #000,
+   3px  6px 0 #000;
+
+}
+
+.aboutTextsm{
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+
+}
+
+.shadow-outline-aboutsm{
+  width: 350px;
+  height: 240px;
+  border-radius: 39.53px 39.53px 39.53px 39.53px;
+  box-shadow: 5px 5px 0px #000;
+  border: 3px solid black;
+}
+
+.tokenomicsBoxsm{
+  width: 392px;
+  height: 469px;
+  padding: 40px 41px 40px 40px;
+  gap: 8.24px;
+  border-radius: 39.53px;
+  box-shadow: 2px 9px 2px #000;
+  border: 2.5px solid black;
+}
+
+.tokenomicsHeadersm{
+  font-family: Jockey One;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: center;
+
+
+  text-shadow:
+  -4px -3px 0 #000,
+   4px -3px 0 #000, 
+  -4px  3px 0 #000,
+   5px  3px 0 #000, 
+  -4px  7px 0 #000,
+   4px  7px 0 #000; 
+}
+
+.tokenomicsCol1sm{
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+}
+
+.tokenomicsCol2sm{
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+
+}
+
+.firstProjectBacksm{
+  background-image: url('/assets/FirstProjectBVertical.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.firstProjectTextsm{
+  font-family: Jockey One;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 53.2px;
+  text-align: left;
+
+}
+
+.ratedTextt{
+  font-family: Jost;
+  font-size: 27.24px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.alphaText{
+  font-family: Jost;
+  font-size: 27.24px;
+  font-weight: 700;
+  line-height: 28.33px;
+}
+
+.roadmapText{
+    font-family: Jockey One;
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 142.5px;
+    text-align: center;
+
+    text-shadow:
+  -4px -3px 0 #000,
+   4px -3px 0 #000, 
+  -4px  3px 0 #000,
+   5px  3px 0 #000, 
+  -4px  7px 0 #000,
+   4px  7px 0 #000; 
+
+}
+
+.roadmapShadowBox{
+  box-shadow: 7px 7px 0px #000;
+  border: 3px solid black;
+}
+
+.phaseTitle{
+  font-family: Jockey One;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 22.68px;
+
+  text-shadow:
+  -2px -3px 0 #000,
+   2px -3px 0 #000,
+  -2px  3px 0 #000,
+   2px  3px 0 #000,
+  -2px  7px 0 #000,
+   2px  7px 0 #000;
+
+}
+
+.phaseList{
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+
+}
+
+  @layer base {
+    :root {
+      --background: 0 0% 100%;
+      --foreground: 222.2 84% 4.9%;
+
+      --card: 0 0% 100%;
+      --card-foreground: 222.2 84% 4.9%;
+
+      --popover: 0 0% 100%;
+      --popover-foreground: 222.2 84% 4.9%;
+
+      --primary: 222.2 47.4% 11.2%;
+      --primary-foreground: 210 40% 98%;
+
+      --secondary: 210 40% 96.1%;
+      --secondary-foreground: 222.2 47.4% 11.2%;
+
+      --muted: 210 40% 96.1%;
+      --muted-foreground: 215.4 16.3% 46.9%;
+
+      --accent: 210 40% 96.1%;
+      --accent-foreground: 222.2 47.4% 11.2%;
+
+      --destructive: 0 84.2% 60.2%;
+      --destructive-foreground: 210 40% 98%;
+
+      --border: 214.3 31.8% 91.4%;
+      --input: 214.3 31.8% 91.4%;
+      --ring: 222.2 84% 4.9%;
+
+      --radius: 0.5rem;
+    }
+
+    .dark {
+      --background: 222.2 84% 4.9%;
+      --foreground: 210 40% 98%;
+
+      --card: 222.2 84% 4.9%;
+      --card-foreground: 210 40% 98%;
+
+      --popover: 222.2 84% 4.9%;
+      --popover-foreground: 210 40% 98%;
+
+      --primary: 210 40% 98%;
+      --primary-foreground: 222.2 47.4% 11.2%;
+
+      --secondary: 217.2 32.6% 17.5%;
+      --secondary-foreground: 210 40% 98%;
+
+      --muted: 217.2 32.6% 17.5%;
+      --muted-foreground: 215 20.2% 65.1%;
+
+      --accent: 217.2 32.6% 17.5%;
+      --accent-foreground: 210 40% 98%;
+
+      --destructive: 0 62.8% 30.6%;
+      --destructive-foreground: 210 40% 98%;
+
+      --border: 217.2 32.6% 17.5%;
+      --input: 217.2 32.6% 17.5%;
+      --ring: 212.7 26.8% 83.9%;
+    }
+  }
+
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-background text-foreground;
+    }
+
+    body{
+      background-color: black;
+    }
+
+    .secondBlue{
+      background-color: #2151F5 #2151F5;
+      background-size: 10px 800px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .darkZone{
+      height: 700px;
+    }
+  }
