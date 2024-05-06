@@ -4,8 +4,8 @@ import HomeSection from '@/components/HomeSection';
 import Roadmap from '@/components/Roadmap';
 import Socials from '@/components/Socials';
 import Tokenomics from '@/components/Tokenomics';
-import { Button } from '@/components/ui/button'
-import Grow from '@mui/material/Grow';
+// import { Button } from '@/components/ui/button'
+// import Grow from '@mui/material/Grow';
 import useMediaQuery from "@mui/material/useMediaQuery";
 
 const Home = () => {
