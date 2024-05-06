@@ -1,4 +1,4 @@
-
+// import React from 'react'
 import useMediaQuery from "@mui/material/useMediaQuery";
 
 
@@ -8,7 +8,7 @@ const DarkZone = () => {
   return (
     <div>
         {full &&(
-            <div className=' ml-28'>
+            <div>
               <div className='flex mt-48 ml-32 pt-10 '>
                 <div className='absolute ml-40'>
                   <div className=' w-[544px] h-[298px] bg-white  shadow-outline-about rounded-2xl'> 
