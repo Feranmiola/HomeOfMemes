@@ -24,7 +24,7 @@ const Roadmap = () => {
                         />
                         </div>
 
-                        <div className='absolute flex left-[300px] top-[3300px] '> 
+                        <div className='absolute mt-10 flex left-[300px] top-[3300px] '> 
                         <div className='w-[305px] h-[264px] bg-roadmapContentbg rounded-3xl roadmapShadowBox'>
                             <h2 className='phaseTitle text-white ml-9 mt-10'>Phase 1</h2>
                             <ul className=' mt-7 ml-16 '>
