@@ -7,7 +7,7 @@ const Tokenomics = () => {
   return (
     <div>
         {full &&(
-            <div className=' pt-10 '>
+            <div className=' pt-[10rem] '>
                 <div className="w-full h-[1450px] mt-6 items-center justify-center">
                     <div className=" items-center justify-center flex mt-28">
                         <div className="absolute mt-[30rem]">
@@ -105,7 +105,7 @@ const Tokenomics = () => {
 
                             </div>
                         </div>
-                        <div className="flex items-center justify-center">
+                        <div className="flex items-center justify-center pt-[5rem]">
                             <div className=' firstProjectBack items-center justify-center bg-FirstProjectBGColor shadow-outline-bottom-first w-[976px] h-[367px] mt-20 rounded-[39.53px]'>
                                 <div className='flex flex-row items-center justify-between'>
                                 <div className='flex flex-col'>
