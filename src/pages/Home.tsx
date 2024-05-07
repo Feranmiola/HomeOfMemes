@@ -13,7 +13,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 
 const Home = () => {
 
-  const small = useMediaQuery("(max-width:600px)");
+  // const small = useMediaQuery("(max-width:600px)");
   const full = useMediaQuery("(min-width:900px)");
 
 
@@ -48,7 +48,7 @@ const Home = () => {
               </>
 
             )}
-            {small &&(
+            {/* {small &&(
               <>
                   <img
                   src='./assets/Logo.svg'
@@ -70,7 +70,7 @@ const Home = () => {
                   </div>
               </>
 
-              )}
+              )} */}
           </div>
         
         <div id='Home'>

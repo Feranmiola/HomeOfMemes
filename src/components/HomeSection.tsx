@@ -63,13 +63,13 @@ const HomeSection = () => {
                 </div>
                 <div className='flex justify-center items-center mt-7 '>
                 <div className=' flex flex-col  mt-5 w-[346px] h-[51.06px] bg-homeBG rounded-full shadow-outline-bottom'>
-                  <div className='ml-6 items-center justify-center flex-col mt-[4px]'>
-                      <p className='contractAddressTextsm text-slate-300 mt-1 ml-3'>CONTRACT ADDRESS</p>
+                  <div className='items-center justify-center flex-col mt-[4px]'>
+                      <p className='contractAddressTextsm text-slate-300 mt-1 ml-6'>CONTRACT ADDRESS</p>
                       <div className='flex '>
-                        <p className='ml-3 text-white font-jost contractAddresssm '>1wSiaEyq680-L7eof2L0BM5XrwkMGFkk3uOwTiyIupvw</p>
+                        <p className='ml-6 text-white font-jost contractAddresssm '>1wSiaEyq680-L7eof2L0BM5XrwkMGFkk3uOwTiyIupvw</p>
                     </div>
                     <div className=' flex items-center justify-center mt-8'>
-                      <Button className='mx-6 bg-white shadow-outline-bottom hover:bg-slate-300 rounded-full w-[186.94px] text-copyAddressColor text-xl font-jockey mt-[-19px] '>Copy Address</Button>
+                      <Button className='bg-white shadow-outline-bottom hover:bg-slate-300 rounded-full w-[186.94px] text-copyAddressColor text-xl font-jockey mt-[-19px] '>Copy Address</Button>
                     </div>
                   </div>
                 </div>

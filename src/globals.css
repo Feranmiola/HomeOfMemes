@@ -459,7 +459,7 @@ ul, li{
 }
 
 .tokenomicsBoxsm{
-  width: 392px;
+  width: 362px;
   height: 469px;
   padding: 40px 41px 40px 40px;
   gap: 8.24px;
@@ -530,13 +530,13 @@ ul, li{
   line-height: 28.33px;
 }
 
-.roadmapText{
-    font-family: Jockey One;
-    font-size: 150px;
-    font-weight: 400;
-    line-height: 142.5px;
-    text-align: center;
-
+.roadmapTextsm{
+  font-family: Jockey One;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 68.4px;
+  text-align: center;
+  
     text-shadow:
   -4px -3px 0 #000,
    4px -3px 0 #000, 
@@ -552,12 +552,11 @@ ul, li{
   border: 3px solid black;
 }
 
-.phaseTitle{
+.phaseTitlesm{
   font-family: Jockey One;
   font-size: 36px;
   font-weight: 400;
-  line-height: 22.68px;
-
+  
   text-shadow:
   -2px -3px 0 #000,
    2px -3px 0 #000,
@@ -568,13 +567,66 @@ ul, li{
 
 }
 
-.phaseList{
+.phaseListsm{
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+.socialTitlesm{
+  font-family: Jockey One;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 45.6px;
+  text-align: center;
+  width: 320px;
+
+
+  
+  text-shadow:
+  -2px -3px 0 #000,
+   2px -3px 0 #000,
+  -2px  3px 0 #000,
+   2px  3px 0 #000,
+  -2px  7px 0 #000,
+   2px  7px 0 #000;
+
+
+}
+
+.socialTextsm{
   font-family: Jost;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
-  text-align: left;
+  text-align: center;
+  
 
+}
+
+.copyrightText{
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+
+}
+
+.textTelegram{
+  font-family: Jockey One;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 17.64px;
+  text-align: center;
+
+}
+
+.shadow-outline-bottom-socials-sm{
+  height: 43.46;
+  box-shadow: 0px 6px 0px #000;
+  border: 3.5px solid black;
 }
 
   @layer base {
