@@ -13,7 +13,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 
 const Home = () => {
 
-  // const small = useMediaQuery("(max-width:600px)");
+  const small = useMediaQuery("(max-width:600px)");
   const full = useMediaQuery("(min-width:900px)");
 
 
@@ -48,14 +48,14 @@ const Home = () => {
               </>
 
             )}
-            {/* {small &&(
+            {small &&(
               <>
                   <img
                   src='./assets/Logo.svg'
                   alt='logo'
-                  className='flex ml-24'
+                  className='flex w-[64px] h-[64px] ml-[2rem]'
                   />
-                  <div className=' mt-7 ml-6'>
+                  {/* <div className=' mt-7 ml-6'>
                     <nav className='flex flex-row bg-white rounded-3xl w-[518px] h-[48px]'>
                       <div className=' items-center justify-center flex mx-2'>
                         <a className=' bg-homeBG rounded-3xl text-white px-8 py-1  font-jockey text-xl'>Home</a>
@@ -64,13 +64,15 @@ const Home = () => {
                         <a className='rounded-3xl text-black mx-9 font-jockey text-xl'>Roadmap</a>
                       </div>
                     </nav>
-                  </div>
-                  <div className=' pr-24 mt-8'>
-                    <h2 className=' communityText text-white '>Community</h2>
+                  </div> */}
+                  <div className=' flex mr-[2rem]'>
+                    <img
+                    src='./assets/Menu.svg'
+                    />
                   </div>
               </>
 
-              )} */}
+              )}
           </div>
         
         <div id='Home'>
