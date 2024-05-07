@@ -9,7 +9,7 @@ const Tokenomics = () => {
         {full &&(
             <div className=' pt-10'>
                 <div className="relative h-[1450px] mt-6">
-                    <div className="absolute top-0 left-[325px] ">
+                    <div className="absolute top-0 left-[24%] ">
                         <div className='tokenomicsBox bg-white p-4 rounded-md'>
                         <h2 className='tokenomicsHeader text-white'>Tokenomics</h2>
                         
@@ -102,7 +102,7 @@ const Tokenomics = () => {
 
                             </div>
                         </div>
-                        <div className=' firstProjectBack bg-FirstProjectBGColor shadow-outline-bottom-first  w-[976px] h-[367px] mt-20 rounded-[39.53px] ml-[320px]'>
+                        <div className=' firstProjectBack bg-FirstProjectBGColor shadow-outline-bottom-first  w-[976px] h-[367px] mt-20 rounded-[39.53px] ml-[24%]'>
                             <div className='flex flex-row items-center justify-between'>
                             <div className='flex flex-col'>
                                 <h2 className='firstProjectText text-white text-start w-[460px] ml-16'>First Project on PurpleSale</h2>

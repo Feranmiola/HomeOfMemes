@@ -8,9 +8,9 @@ const DarkZone = () => {
   return (
     <div>
         {full &&(
-            <div>
-              <div className='flex mt-48 ml-32 pt-10 '>
-                <div className='absolute ml-40'>
+            <div className=" items-center justify-centers">
+              <div className='flex flex-row mt-48 ml-[12%] pt-10 '>
+                <div className='absolute flex items-center justify-center ml-40'>
                   <div className=' w-[544px] h-[298px] bg-white  shadow-outline-about rounded-2xl'> 
                       <h2 className=' absolute text-white aboutTitle mt-[-29px] ml-5'>About Home of Memes</h2>
                       <p className=' aboutText w-[471px] ml-8 mt-12'>Hallofmemes is more than just a meme token; it's a symbol of unity and collaboration in the digital world. Our journey began with a vision to bring together all the iconic memes under one roof, creating a virtual hall where they could live on forever.</p>
@@ -21,10 +21,10 @@ const DarkZone = () => {
                   className='mx-[555px] mt-2'
                   />
                 </div>
-                <div>
+                <div className="flex">
                   <img
                   src='./assets/logo2.svg'
-                  className=' mx-[440px] mt-[-99px]'
+                  className=' mx-[28%] mt-[-99px]'
                   />
               </div>
             </div>
