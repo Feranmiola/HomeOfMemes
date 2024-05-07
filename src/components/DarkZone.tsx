@@ -28,8 +28,12 @@ const DarkZone = () => {
               </div>
                 <div className="flex">
                   <img
-                  src='./assets/logo2.svg'
+                  src='./assets/InnerLogo2.svg'
                   className=' mx-[28%] mt-[-6rem]'
+                  />
+                  <img
+                  src='./assets/outerRingLogo2.svg'
+                  className=' absolute mx-[28%] right-[39.5rem] top-[79.25rem] ringImage'
                   />
               </div>
             </div>
@@ -52,8 +56,12 @@ const DarkZone = () => {
                   />
                    <div className=' items-center justify-center flex'>
                       <img
-                      src='./assets/logo2.svg'
+                      src='./assets/InnerLogo2.svg'
                       className=' mt-16'
+                      />
+                      <img
+                      src='./assets/outerRingLogo2.svg'
+                      className='absolute mt-16 ringImage'
                       />
                   </div>
                 </div>
