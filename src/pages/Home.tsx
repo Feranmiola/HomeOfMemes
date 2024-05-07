@@ -53,8 +53,13 @@ const Home = () => {
                   <img
                   src='./assets/Logo.svg'
                   alt='logo'
-                  className='flex w-[64px] h-[64px] ml-[2rem]'
+                  className='flex w-[64px] h-[64px] ml-[2rem] mt-[2rem]'
                   />
+                  <div className=' flex mr-[2rem] mt-[2rem]'>
+                    <img
+                    src='./assets/Menu.svg'
+                    />
+                  </div>
                   {/* <div className=' mt-7 ml-6'>
                     <nav className='flex flex-row bg-white rounded-3xl w-[518px] h-[48px]'>
                       <div className=' items-center justify-center flex mx-2'>
@@ -65,11 +70,6 @@ const Home = () => {
                       </div>
                     </nav>
                   </div> */}
-                  <div className=' flex mr-[2rem]'>
-                    <img
-                    src='./assets/Menu.svg'
-                    />
-                  </div>
               </>
 
               )}

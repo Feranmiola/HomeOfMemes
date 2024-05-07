@@ -37,7 +37,7 @@ const DarkZone = () => {
 
       {small &&(
             <div>
-              <div className='flex flex-col pt-10 mt-7 pb-6 '>
+              <div className='flex flex-col pt-10 mt-10 pb-6 '>
                 <div className=' mt-20 items-center justify-center flex '>
                   <div className=' bg-white absolute shadow-outline-aboutsm mt-[300px] rounded-2xl'> 
                       <h2 className=' absolute text-white aboutTitlesm mt-[-20px] ml-5'>About Home of Memes</h2>
