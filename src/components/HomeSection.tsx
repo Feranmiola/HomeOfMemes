@@ -11,7 +11,7 @@ const HomeSection = () => {
     <div>
     {full && (
               <div>
-                <div className='items-center justify-center mt-20'>
+                <div className='items-center justify-center mt-[13rem]'>
                 <h1 className=' welcomeText text-white text-center'>Welcome to the</h1>
                 <div className='flex flex-row items-center justify-center'>
                   <div className='relative flex flex-row mt-3'>

@@ -7,11 +7,16 @@ import Tokenomics from '@/components/Tokenomics';
 // import { Button } from '@/components/ui/button'
 // import Grow from '@mui/material/Grow';
 import useMediaQuery from "@mui/material/useMediaQuery";
+// import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+// import { useScroll } from 'react-use';
+
 
 const Home = () => {
 
   const small = useMediaQuery("(max-width:600px)");
   const full = useMediaQuery("(min-width:900px)");
+
+
   return (
     <div className=''>
         <div className=' bg-homeBG bgImage h-[`900px]'>
@@ -19,24 +24,27 @@ const Home = () => {
             {full &&(
 
               <>
+                <div className='flex relative justify-between pt-4 navbar'>
                   <img
-                  src='./assets/Logo.svg'
-                  alt='logo'
-                  className='flex ml-24'
-                  />
-                  <div className=' mt-7 ml-6'>
-                    <nav className='flex flex-row bg-white rounded-3xl w-[518px] h-[48px]'>
-                      <div className=' items-center justify-center flex mx-2'>
-                        <a href='#Home' className=' bg-homeBG rounded-3xl text-white px-8 py-1  font-jockey text-xl'>Home</a>
-                        <a href='#About' className='rounded-3xl text-black mx-9 font-jockey text-xl'>About</a>
-                        <a href='#Tokenomics' className='rounded-3xl text-black mx-9 font-jockey text-xl'>Tokenomics</a>
-                        <a href='#Roadmap'className='rounded-3xl text-black mx-9 font-jockey text-xl'>Roadmap</a>
+                      src='./assets/Logo.svg'
+                      alt='logo'
+                      className='flex ml-24'
+                      />
+                      <div className=' mt-7 ml-6'>
+                        <nav className='flex flex-row bg-white rounded-3xl w-[518px] h-[48px]'>
+                          <div className=' items-center justify-center flex mx-2'>
+                            <a href='#Home' className=' bg-homeBG rounded-3xl text-white px-8 py-1  font-jockey text-xl'>Home</a>
+                            <a href='#About' className='rounded-3xl text-black mx-9 font-jockey text-xl'>About</a>
+                            <a href='#Tokenomics' className='rounded-3xl text-black mx-9 font-jockey text-xl'>Tokenomics</a>
+                            <a href='#Roadmap'className='rounded-3xl text-black mx-9 font-jockey text-xl'>Roadmap</a>
+                          </div>
+                        </nav>
                       </div>
-                    </nav>
-                  </div>
-                  <div className=' pr-24 mt-8'>
-                    <h2 className=' communityText text-white '>Community</h2>
-                  </div>
+                      <div className=' pr-24 mt-8'>
+                        <h2 className=' communityText text-white '>Community</h2>
+                      </div>
+
+              </div>
               </>
 
             )}
