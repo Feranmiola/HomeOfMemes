@@ -8,9 +8,9 @@ const Tokenomics = () => {
     <div>
         {full &&(
             <div className=' pt-10 '>
-                <div className="w-screen h-[1450px] mt-6 items-center justify-center">
+                <div className="w-full h-[1450px] mt-6 items-center justify-center">
                     <div className=" items-center justify-center flex mt-28">
-                        <div className="absolute">
+                        <div className="absolute mt-[30rem]">
                             <div className='tokenomicsBox bg-white p-4 rounded-md'>
                             <h2 className='tokenomicsHeader text-white'>Tokenomics</h2>
                             
