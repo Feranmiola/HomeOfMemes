@@ -15,7 +15,7 @@ const Roadmap = () => {
                         </div>
                         <img
                         src='./assets/roadmapRing.svg'
-                        className='absolute ml-[31rem]'
+                        className='absolute ml-[31rem] ringImage'
                         />
                     </div>
                     <div>
@@ -72,7 +72,7 @@ const Roadmap = () => {
                         </div>
                         <img
                         src='./assets/roadmapRingSm.svg'
-                        className='absolute ml-[16rem]'
+                        className='absolute ml-[16rem] ringImage'
                         />
                     </div>
                     <div>
