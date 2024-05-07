@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import DarkZone from '@/components/DarkZone';
 import Footer from '@/components/Footer';
 import HomeSection from '@/components/HomeSection';
@@ -16,10 +17,20 @@ const Home = () => {
   const small = useMediaQuery("(max-width:600px)");
   const full = useMediaQuery("(min-width:900px)");
 
+  const [activeLink, setActiveLink] = useState('Home');
+
+  const linkStyle = (link:string) => {
+    if (link === activeLink) {
+      return 'bg-homeBG transition-all duration-500 ease-in-out rounded-3xl text-white px-8 py-1 font-jockey text-xl';
+    } else {
+      return 'rounded-3xl transition-all duration-500 ease-in-out text-black mx-8 font-jockey text-xl';
+    }
+  };
+  
 
   return (
     <div className=''>
-        <div className=' bg-homeBG bgImage h-[`900px]'>
+        <div className=' bg-homeBG bgImage h-[`900px]' id='Home'>
           <div className='flex justify-between pt-4'>
             {full &&(
 
@@ -33,10 +44,10 @@ const Home = () => {
                       <div className=' mt-7 ml-6'>
                         <nav className='flex flex-row bg-white rounded-3xl w-[518px] h-[48px]'>
                           <div className=' items-center justify-center flex mx-2'>
-                            <a href='#Home' className=' bg-homeBG rounded-3xl text-white px-8 py-1  font-jockey text-xl'>Home</a>
-                            <a href='#About' className='rounded-3xl text-black mx-9 font-jockey text-xl'>About</a>
-                            <a href='#Tokenomics' className='rounded-3xl text-black mx-9 font-jockey text-xl'>Tokenomics</a>
-                            <a href='#Roadmap'className='rounded-3xl text-black mx-9 font-jockey text-xl'>Roadmap</a>
+                            <a href='#Home' className={linkStyle('Home')} onClick={() => setActiveLink('Home')}>Home</a>
+                            <a href='#About' className={linkStyle('About')} onClick={() => setActiveLink('About')}>About</a>
+                            <a href='#Tokenomics' className={linkStyle('Tokenomics')} onClick={() => setActiveLink('Tokenomics')}>Tokenomics</a>
+                            <a href='#Roadmap' className={linkStyle('Roadmap')} onClick={() => setActiveLink('Roadmap')}>Roadmap</a>
                           </div>
                         </nav>
                       </div>
@@ -75,7 +86,7 @@ const Home = () => {
               )}
           </div>
         
-        <div id='Home'>
+        <div>
             <HomeSection/>
         </div>
         
