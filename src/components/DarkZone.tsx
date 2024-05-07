@@ -56,7 +56,16 @@ const DarkZone = () => {
                   src='./assets/group2.svg'
                   className=' mt-[250px]'
                   />
-                  
+                   <div className=' items-center justify-center flex'>
+                      <img
+                      src='./assets/InnerLogo2.svg'
+                      className=' mt-16'
+                      />
+                      <img
+                      src='./assets/outerRingLogo2.svg'
+                      className='absolute mt-16 ringImage'
+                      />
+                  </div>
                 </div>
                
             </div>

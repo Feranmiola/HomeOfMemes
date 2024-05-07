@@ -137,7 +137,7 @@ const Tokenomics = () => {
         )}
 
         {small &&(
-            <div className=' pt-[18rem] '>
+            <div className=' pt-[14rem] '>
                 <div className="w-full h-[1450px] mt-6 items-center justify-center">
                     <div className=" items-center justify-center flex mt-28">
                         <div className="absolute mt-[30rem]">
