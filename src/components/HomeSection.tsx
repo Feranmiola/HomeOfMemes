@@ -1,14 +1,35 @@
 // import React from 'react'
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { Button } from '@/components/ui/button'
+import {  message } from 'antd';
 
 
 const HomeSection = () => {
 
     const small = useMediaQuery("(max-width:600px)");
     const full = useMediaQuery("(min-width:900px)");
+
+    const [messageApi, contextHolder] = message.useMessage();
+    const key = 'updatable';
+
+    const handleCopy= () => {
+      messageApi.open({
+        key,
+        type: 'loading',
+        content: 'Copying...',
+      });
+      setTimeout(() => {
+        messageApi.open({
+          key,
+          type: 'success',
+          content: 'Copied!',
+          duration: 2,
+        });
+      }, 1000)
+    }
   return (
     <div>
+       {contextHolder}
     {full && (
               <div>
                 <div className='items-center justify-center mt-[13rem]'>
@@ -34,7 +55,7 @@ const HomeSection = () => {
                       <p className='contractAddressText mt-1'>Contract Address</p>
                       <div className='flex justify-between '>
                         <p className='ml-3 text-white font-jost contractAddress '>1wSiaEyq680-L7eof2L0BM5XrwkMGFkk3uOwTiyIupvw</p>
-                        <Button className='mx-6 bg-white shadow-outline-bottom hover:bg-slate-300 rounded-full w-[186.94px] text-copyAddressColor text-xl font-jockey mt-[-19px] '>Copy Address</Button>
+                        <Button onClick={handleCopy} className='mx-6 bg-white shadow-outline-bottom hover:bg-slate-300 rounded-full w-[186.94px] text-copyAddressColor text-xl font-jockey mt-[-19px] '>Copy Address</Button>
                     </div>
                   </div>
                 </div>
@@ -75,7 +96,7 @@ const HomeSection = () => {
                         <p className='ml-6 text-white font-jost contractAddresssm '>1wSiaEyq680-L7eof2L0BM5XrwkMGFkk3uOwTiyIupvw</p>
                     </div>
                     <div className=' flex items-center justify-center mt-8'>
-                      <Button className='bg-white shadow-outline-bottom hover:bg-slate-300 rounded-full w-[186.94px] text-copyAddressColor text-xl font-jockey mt-[-19px] '>Copy Address</Button>
+                      <Button onClick={handleCopy} className='bg-white shadow-outline-bottom hover:bg-slate-300 rounded-full w-[186.94px] text-copyAddressColor text-xl font-jockey mt-[-19px] '>Copy Address</Button>
                     </div>
                   </div>
                 </div>
