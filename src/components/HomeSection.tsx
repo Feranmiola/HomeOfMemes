@@ -6,8 +6,8 @@ import {  message } from 'antd';
 
 const HomeSection = () => {
 
-    const small = useMediaQuery("(max-width:600px)");
-    const full = useMediaQuery("(min-width:900px)");
+  const small = useMediaQuery("(max-width:899px)");
+  const full = useMediaQuery("(min-width:900px)");
 
     const [messageApi, contextHolder] = message.useMessage();
     const key = 'updatable';

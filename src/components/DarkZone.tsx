@@ -1,9 +1,8 @@
 // import React from 'react'
 import useMediaQuery from "@mui/material/useMediaQuery";
 
-
 const DarkZone = () => {
-    const small = useMediaQuery("(max-width:600px)");
+  const small = useMediaQuery("(max-width:899px)");
     const full = useMediaQuery("(min-width:900px)");
   return (
     <div>

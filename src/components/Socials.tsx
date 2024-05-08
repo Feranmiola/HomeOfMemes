@@ -1,7 +1,7 @@
 // import React from 'react'
 import useMediaQuery from "@mui/material/useMediaQuery";
 const Socials = () => {
-    const small = useMediaQuery("(max-width:600px)");
+    const small = useMediaQuery("(max-width:899px)");
     const full = useMediaQuery("(min-width:900px)");
   return (
     <div>
@@ -9,7 +9,7 @@ const Socials = () => {
         {full && (
             <div>
                 <div className='bg-homeBG h-[600px]'>
-                    <div className="flex flex-col items-center  justify-center">
+                    <div className="flex flex-col items-center  justify-center pt-[7rem]">
                         <div className='flex-row items-center justify-center'>
                             <h2 className='socialTitle text-white'>Follow our social media!</h2>
                             <p className='text-white text-center mt-10 socialText '>Stay Connected for the latest updates and developments within the community.</p>

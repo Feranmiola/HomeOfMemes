@@ -1,12 +1,15 @@
 import Home from './pages/Home'
+// import { PrimeReactProvider } from 'primereact/api';
 import './globals.css'
 
 function App() {
 
   return (
-    <div className='bg-black'>
-      <Home/>
-    </div>
+    
+      <div className='bg-black'>
+        <Home/>
+      </div>
+    
   )
 }
 

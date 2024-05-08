@@ -638,6 +638,63 @@ ul, li{
   animation: spin 6s linear infinite;
 }
 
+.menu {
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.menuImage{
+  cursor: pointer;
+}
+
+.link{
+  font-family: Jockey One;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 22.68px;
+  text-align: center;
+
+}
+
+.menuCommunity{
+  font-family: Jockey One;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 15.12px;
+  text-align: center;
+  color: #1840F2;
+
+}
+
+.textTelegramsm{
+  font-family: Jockey One;
+  font-size: 19.76px;
+  font-weight: 400;
+  line-height: 12.45px;
+  
+
+}
+
+.navbarHOAM{
+  font-family: Jost;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: center;
+
+}
+
+.navbarHOAMText{
+  font-family: Jost;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+
+}
+
 
   @layer base {
     :root {
