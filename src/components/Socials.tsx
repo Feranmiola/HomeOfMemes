@@ -15,24 +15,28 @@ const Socials = () => {
                             <p className='text-white text-center mt-10 socialText '>Stay Connected for the latest updates and developments within the community.</p>
                         </div>
                         <div className='flex items-center justify-center mt-8'>
-                            <div className='ml-2 bg-roadmapContentbg pl-[9px] pt-[8px] pb-[8px] pr-[16px] shadow-outline-bottom-socials rounded-full'>
-                                <div className='flex'>
-                                    <img
-                                    src='./assets/telegramIcon.svg'
-                                    className='ml-2'
-                                    />
-                                    <h3 className='text-white textTelegram mt-4 ml-2 mr-2'>Telegram</h3>
+                            <a className=" cursor-pointer" href="https://t.me/homeonbase" target="blank">
+                                <div className='ml-2 bg-roadmapContentbg pl-[9px] pt-[8px] pb-[8px] pr-[16px] shadow-outline-bottom-socials rounded-full'>
+                                    <div className='flex'>
+                                        <img
+                                        src='./assets/telegramIcon.svg'
+                                        className='ml-2'
+                                        />
+                                        <h3 className='text-white textTelegram mt-4 ml-2 mr-2'>Telegram</h3>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className='ml-6 bg-roadmapContentbg pl-[9px] pt-[8px] pb-[8px] pr-[16px] shadow-outline-bottom-socials rounded-full'>
-                                <div className='flex'>
-                                    <img
-                                    src='./assets/xIcon.svg'
-                                    className='ml-2'
-                                    />
-                                    <h3 className='text-white textTelegram mt-4 ml-2 mr-2'>X (Twitter)</h3>
+                            </a>
+                            <a className="cursor-pointer" href="https://x.com/homeonbase" target="blank">
+                                <div className='ml-6 bg-roadmapContentbg pl-[9px] pt-[8px] pb-[8px] pr-[16px] shadow-outline-bottom-socials rounded-full'>
+                                    <div className='flex'>
+                                        <img
+                                        src='./assets/xIcon.svg'
+                                        className='ml-2'
+                                        />
+                                        <h3 className='text-white textTelegram mt-4 ml-2 mr-2'>X (Twitter)</h3>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <p className='text-white text-center mt-16 copyrightText'>All Rights Reserved © Home of Memes 2024</p>
                     </div>
@@ -51,7 +55,8 @@ const Socials = () => {
                           <p className='text-white text-center mt-10 socialTextsm w-[306px] '>Stay Connected for the latest updates and developments within the community.</p>
                       </div>
                       <div className='flex flex-col items-center justify-center mt-8'>
-                          <div className='bg-roadmapContentbg flex items-center justify-center h-[4.5rem] w-[13rem] shadow-outline-bottom-socials rounded-full'>
+                        <a href="https://t.me/homeonbase" target="blank">
+                            <div className='bg-roadmapContentbg flex items-center justify-center h-[4.5rem] w-[13rem] shadow-outline-bottom-socials rounded-full'>
                               <div className='flex'>
                                   <img
                                   src='./assets/telegramIcon.svg'
@@ -60,7 +65,9 @@ const Socials = () => {
                                   <h3 className='text-white textTelegram mt-4 ml-2 mr-2'>Telegram</h3>
                               </div>
                           </div>
-                          <div className=' mt-5 bg-roadmapContentbg flex items-center justify-center h-[4.5rem] w-[13rem] shadow-outline-bottom-socials rounded-full'>
+                        </a>
+                        <a href="https://x.com/homeonbase" target="blank">
+                            <div className=' mt-5 bg-roadmapContentbg flex items-center justify-center h-[4.5rem] w-[13rem] shadow-outline-bottom-socials rounded-full'>
                               <div className='flex'>
                                   <img
                                   src='./assets/xIcon.svg'
@@ -69,6 +76,7 @@ const Socials = () => {
                                   <h3 className='text-white textTelegram mt-4 ml-2 mr-2'>X (Twitter)</h3>
                               </div>
                           </div>
+                        </a>
                       </div>
                       <p className='text-white text-center mt-16 copyrightText'>All Rights Reserved © Home of Memes 2024</p>
                   </div>

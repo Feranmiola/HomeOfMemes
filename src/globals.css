@@ -23,12 +23,29 @@ html {
   -ms-overflow-style: none; /* For Internet Explorer and Edge */
 }
 
+.navbarBG{
+  background-color:#050505a5;
+  transition: .3s ease-in-out;
+}
+
 .navbar {
   overflow: hidden;
-  z-index: 9999;
+  z-index: 9998;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+}
+
+.navbarsm {
+  overflow: hidden;
+  z-index: 400;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+Menu{
+  z-index: 9999;
 }
 
 .bgImage{

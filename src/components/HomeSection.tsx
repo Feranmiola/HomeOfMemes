@@ -1,7 +1,7 @@
 // import React from 'react'
 import useMediaQuery from "@mui/material/useMediaQuery";
-import { Button } from '@/components/ui/button'
-import {  message } from 'antd';
+// import { Button } from '@/components/ui/button'
+// import {  message } from 'antd';
 
 
 const HomeSection = () => {
@@ -9,30 +9,30 @@ const HomeSection = () => {
   const small = useMediaQuery("(max-width:899px)");
   const full = useMediaQuery("(min-width:900px)");
 
-    const [messageApi, contextHolder] = message.useMessage();
-    const key = 'updatable';
+    // const [messageApi, contextHolder] = message.useMessage();
+    // const key = 'updatable';
 
-    const contractAddress = '1wSiaEyq680-L7eof2L0BM5XrwkMGFkk3uOwTiyIupvw';
+    // const contractAddress = '1wSiaEyq680-L7eof2L0BM5XrwkMGFkk3uOwTiyIupvw';
 
-    const handleCopy= () => {
-      navigator.clipboard.writeText(contractAddress);
-      messageApi.open({
-        key,
-        type: 'loading',
-        content: 'Copying...',
-      });
-      setTimeout(() => {
-        messageApi.open({
-          key,
-          type: 'success',
-          content: 'Copied!',
-          duration: 2,
-        });
-      }, 1000)
-    }
+    // const handleCopy= () => {
+    //   navigator.clipboard.writeText(contractAddress);
+    //   messageApi.open({
+    //     key,
+    //     type: 'loading',
+    //     content: 'Copying...',
+    //   });
+    //   setTimeout(() => {
+    //     messageApi.open({
+    //       key,
+    //       type: 'success',
+    //       content: 'Copied!',
+    //       duration: 2,
+    //     });
+    //   }, 1000)
+    // }
   return (
     <div>
-       {contextHolder}
+       {/* {contextHolder} */}
     {full && (
               <div>
                 <div className='items-center justify-center mt-[13rem]'>
@@ -53,7 +53,7 @@ const HomeSection = () => {
                 </div>
                 </div>
                 <div className='flex justify-center items-center mt-7 '>
-                <div className=' flex flex-col  mt-5 w-[728px] h-[51.06px] bg-homeBG rounded-full shadow-outline-bottom'>
+                {/* <div className=' flex flex-col  mt-5 w-[728px] h-[51.06px] bg-homeBG rounded-full shadow-outline-bottom'>
                   <div className='ml-6'>
                       <p className='contractAddressText mt-1'>Contract Address</p>
                       <div className='flex justify-between '>
@@ -61,13 +61,13 @@ const HomeSection = () => {
                         <Button onClick={handleCopy} className='mx-6 bg-white shadow-outline-bottom hover:bg-slate-300 rounded-full w-[186.94px] text-copyAddressColor text-xl font-jockey mt-[-19px] '>Copy Address</Button>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 </div>
               </div>
             )}
 
     {small && (
-              <div>
+              <div className="pt-16  mt-32 ">
                 <div className='items-center justify-center mt-16'>
                   <div className="flex items-center justify-center">
                     <h1 className=' welcomeTextsm text-white text-center'>Welcome to the</h1>
@@ -92,7 +92,7 @@ const HomeSection = () => {
                 </div>
                 </div>
                 <div className='flex justify-center items-center mt-7 '>
-                <div className=' flex flex-col  mt-5 w-[346px] h-[51.06px] bg-homeBG rounded-full shadow-outline-bottom'>
+                {/* <div className=' flex flex-col  mt-5 w-[346px] h-[51.06px] bg-homeBG rounded-full shadow-outline-bottom'>
                   <div className='items-center justify-center flex-col mt-[4px]'>
                       <p className='contractAddressTextsm text-slate-300 mt-1 ml-6'>CONTRACT ADDRESS</p>
                       <div className='flex items-center justify-center '>
@@ -102,7 +102,7 @@ const HomeSection = () => {
                       <Button onClick={handleCopy} className='bg-white shadow-outline-bottom hover:bg-slate-300 rounded-full w-[186.94px] text-copyAddressColor text-xl font-jockey mt-[-19px] '>Copy Address</Button>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 </div>
               </div>
         )}
